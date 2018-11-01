@@ -12,14 +12,16 @@ const INIT_VIEW = inferPick<MapProps>()({
   center: [-73.991284, 40.741263],
   zoom: [14.5],
   pitch: [45],
-  bearing: [-17.6]
+  bearing: [-17.6],
+  style: "mapbox://styles/mapbox/streets-v9"
 });
+
+type Foo = Map['props'];
 
 export function render(): JSX.Element {
   // What's the problem?
   return (
     <Map
-      style="mapbox://styles/mapbox/streets-v9"
       {...INIT_VIEW}
     >
         { /* ... */ }
