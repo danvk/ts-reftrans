@@ -1,6 +1,6 @@
 # Referential Transparency and TypeScript
 
-This repo contains code samples from a talk I gave at [TSNYC 3.1.1][meetup].
+This repo contains [code samples](src/) from a talk I gave at [TSNYC 3.1.1][meetup].
 
 To view the samples yourself in vscode, run:
 
