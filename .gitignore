@@ -1,0 +1,10 @@
+.idea/scopes/scope_settings.xml
+.idea/workspace.xml
+.idea/DesignExplorer.iml
+.idea/encodings.xml
+*.xml
+index.html___jb_old___
+data
+node_modules
+*.log
+
